@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	outline: none;
+}
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: rgb(76,24,201);
+	background-image: linear-gradient(90deg, rgba(76,24,201,1) 0%, rgba(111,0,255,1) 100%);
+}
+.container{
+	height: 800px;
+	width: 1500px;
+	background: white;
+	border-radius: 30px;
+	display: flex;
+	background-image: url(wave.svg);
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0 0 100px gray;
+}
+.img-div{
+	height: 100%;
+	width: 1000px;
+	background-image: url(logo10.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70%;
+}
+.login-div{
+	height: 100%;
+	width: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	transform-style: preserve-3d;
+}
+.login-box{
+	height: 600px;
+	width: 400px;
+	border-radius: 20px;
+	background: rgb(76,24,201);
+	background-image: linear-gradient(90deg, rgba(76,24,201,1) 0%, rgba(111,0,255,1) 100%);
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+	text-align-last: center;
+	box-shadow: 0 0 20px #cacaca;
+}
+h1{
+	font-weight: bolder;
+	color: white;
+	font-size: 40px;
+}
+.login-form{
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	grid-gap: 40px;
+	grid-template-columns: auto;
+	flex-direction: column;
+	margin-top: 50px;
+}
+.input-div{
+	height: 60px;
+	width: 300px;
+	background: white;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+input{
+	height: 60px;
+	font-size: 20px;
+	text-align-last: left;
+	width: 230px;
+	background: none;
+	border: none;
+	outline: none;
+}
+#login-btn{
+	height: 60px;
+	width: 200px;
+	background: #fec510;
+	color: white;
+	font-size: 30px;
+	border-radius: 10px;
+	text-align-last: center;
+	font-weight: bolder;
+	cursor: pointer;
+	border: none;
+}
+p{	
+	color: white;
+	font-weight: bolder;
+}
+#remember{
+	height: 15px;
+	width: 15px;
+	background: yellow;
+
+}
+.fa-solid{
+	color:	#fec510;
+	font-size: 20px;
+}
+.newuser{
+	width: 150px;
+	padding-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.newuser p{
+	color: black;
+	font-weight: 100;
+}
+.newuser a{
+	font-weight: bolder;
+}
